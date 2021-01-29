@@ -1,4 +1,14 @@
-; ###########################################################################################################################
+SAMP UDF for C#
+=======================
+**Version 0.3.7 R1**
+Net Framework Version: 4.0+
+----------
+This collection of functions allows to access native GTA/SAMP functions.
+You can create useful scripts to automate repeating tasks.
+
+Functions:
+
+    ; ###########################################################################################################################
     ; # Samp/Gta Functions:                                                                                                     #
     ; #     - IsInChat();                               [check if dialog or chatbox is active ]                                 #
     ; #     - GetUsername();                            [get local player name]                                                 #
@@ -66,3 +76,7 @@
     ; #     - RefreshSAMP();                                                                                                    #
     ; #     - RefreshMemory();                                                                                                  #
     ; ###########################################################################################################################
+
+
+*COMPILE*
+-compile it with 86x architecture
