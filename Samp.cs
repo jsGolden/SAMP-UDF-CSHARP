@@ -379,37 +379,7 @@ public class Samp
     [DllImport("kernel32.dll", SetLastError = true)]
     static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds);
     #endregion
-
-    public static void a()
-    {
-        //string ip = GetServerIP();
-        //bool inChat = IsInChat();
-        //string username = GetUsername();
-        //string hostname = GetServerHostname();
-        //int health = GetPlayerHealth();
-        //int armor = GetPlayerArmor();
-        //int interiorId = GetPlayerInteriorId();
-        //int money = GetPlayerMoney();
-        //bool isPlayerInVehicle = IsPlayerInAnyVehicle();
-        //bool isPlayerDriver = IsPlayerDriver();
-        //float carHealth = GetVehicleHealth();
-        //int vType = GetVehicleType();
-        //int model = GetVehicleModelId();
-        //string vehicleName = GetVehicleModelName();
-        //bool vehicleOn = IsVehicleEngineStateON();
-        //float[] Coords = GetCoordinates();
-        //bool cpActive = IsCheckpointActive();
-        //bool raceCpActive = IsRaceCheckpointActive();
-        //float[] cpCoords = GetCheckpointCoordinates();
-        //SetPlayerHealth(10);
-        //SetPlayerArmor(10);
-        //SetPlayerMoney(500);
-        //string lastMsg = GetLastChatMessage();
-        //int oldNOPValue = 0;
-        //bool ok = SetNOP(SampNOPS.NOP_SETPLAYERNAME, out oldNOPValue, true, 663107305);
-        //Debug.WriteLine();
-    }
-
+        
     #region Samp/Gta Functions
     //Check if local player has chat window opened
     public static bool IsInChat()
