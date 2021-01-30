@@ -51,7 +51,7 @@ Functions:
     ; ###########################################################################################################################
     ; # Internal Stuff:                                                                                                         #
     ; # ------------------------------------------------------------------------------------------------------------------------#
-    ; # - Default Invokes (Internal Stuff):                                                                                     #
+    ; # - Default Invokes (External Kernel32 Stuff):                                                                            #
     ; #     - OpenProcess(int dwDesiredAccess,IntPtr bInheritHandle,IntPtr dwProcessId);                                        #
     ; #     - ReadProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, [Out] byte[] lpBuffer, int dwSize, int bytesRead);       #
     ; #     - WriteProcessMemory(IntPtr hProcess,IntPtr lpBaseAddress, byte[] lpBuffer, int dwSize, out IntPtr BytesWritten);   #   
